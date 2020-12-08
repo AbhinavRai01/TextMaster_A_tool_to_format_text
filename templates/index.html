@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+        <title>Welcome to TextMaster</title>
+        <link rel="icon" type="image/png" href="icon/text-format.png"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">TextMaster</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="https://github.com/AbhinavRai01">Github</a>
+                    <a class="nav-link" href="https://www.youtube.com/channel/UCmTCDnP82ZkNVSRfTO_sYEw">Youtube</a>
+                </div>
+            </div>
+        </nav>
+
+        <h1 align="center">Welcome to TextMaster</h1>
+        <form action="/edited" method="get" align="center">
+            <div><textarea name="text" style="width: 506px; height: 218px; resize: none;">Your text here</textarea><br /></div>
+            <div>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" name="italics" class="custom-control-input" id="customSwitch1" />
+                    <label class="custom-control-label" for="customSwitch1"><i>Italics</i></label>
+                </div>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" name="bold" class="custom-control-input" id="customSwitch2" />
+                    <label class="custom-control-label" for="customSwitch2"><b>Bold</b></label>
+                </div>
+            </div>
+            <div class="custom-control custom-switch">
+                <br />
+                <input type="checkbox" name="upper" class="custom-control-input" id="customSwitch3" />
+                <label class="custom-control-label" for="customSwitch3">UPPER CASE</label>
+            </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" name="spelling" class="custom-control-input" id="customSwitch4" />
+                <label class="custom-control-label" for="customSwitch4">Check Spelling</label>
+            </div>
+            <br />
+            <div class="custom-control custom-switch">
+                <input type="checkbox" name="removepunc" class="custom-control-input" id="customSwitch5" />
+                <label class="custom-control-label" for="customSwitch5">Remove Punctuations</label>
+            </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" name="removenewline" class="custom-control-input" id="customSwitch6" />
+                <label class="custom-control-label" for="customSwitch6">Remove New Lines</label>
+            </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" name="removerelucline" class="custom-control-input" id="customSwitch7" />
+                <label class="custom-control-label" for="customSwitch7">Remove Reluctant Lines</label>
+            </div>
+            <br />
+
+            <div class="custom-control custom-switch">
+                <input type="checkbox" name="countchar" class="custom-control-input" id="customSwitch8" />
+                <label class="custom-control-label" for="customSwitch8">Count Characters</label>
+            </div>
+
+            <div class="custom-control custom-switch">
+                <input type="checkbox" name="countwords" class="custom-control-input" id="customSwitch9" />
+                <label class="custom-control-label" for="customSwitch9">Count Words</label>
+            </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" name="countsentences" class="custom-control-input" id="customSwitch10" />
+                <label class="custom-control-label" for="customSwitch10">Count Sentences</label>
+            </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" name="countparagraph" class="custom-control-input" id="customSwitch11" />
+                <label class="custom-control-label" for="customSwitch11">Count Paragraph</label>
+            </div>
+            <br />
+
+            <button type="submit" class="btn btn-dark">Edit Text</button>
+        </form>
+        <footer class="footer mt-auto py-3 bg-light">
+          <a href="#">Home</a>&nbsp; &nbsp;
+          <a href="https://github.com/AbhinavRai01">Github</a>&nbsp; &nbsp;
+          <a href="https://www.youtube.com/channel/UCmTCDnP82ZkNVSRfTO_sYEw">Youtube</a><br>
+          Made and designed by Abhinav Rai.
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      </body>
+</html>
