@@ -17,4 +17,4 @@ Count Sentences<br>
 Count Paragraph<br>
 
 # Screen Shots
-coming soon...
+<img src="https://drive.google.com/file/d/1Lxb2TJgiIidNP8LjB4fmjh_D354pRTUw/view">
